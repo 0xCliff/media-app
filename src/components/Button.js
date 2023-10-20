@@ -11,6 +11,7 @@ function Button({
   outline,
   rounded,
   loading,
+  small,
   ...rest
 }) {
   const classes = className(
@@ -30,7 +31,8 @@ function Button({
       'text-green-500': outline && success,
       'text-yellow-400': outline && warning,
       'text-red-500': outline && danger,
-    }
+      'h-6 w-6': small,
+    },
   );
 
   return (
@@ -55,7 +57,7 @@ Button.propTypes = {
 
     if (count > 1) {
       return new Error(
-        'Only one of primary, secondary, success, warning, danger can be true'
+        'Only one of primary, secondary, success, warning, danger can be true',
       );
     }
   },

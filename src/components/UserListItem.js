@@ -15,14 +15,15 @@ const UserListItem = ({ user }) => {
   const header = (
     <>
       <Button
-        className='mr-3'
+        className='mr-3 rounded'
         loading={isLoading}
         onClick={handleClick}
+        danger
       >
         <GoTrash />
       </Button>
       {error && <div>Error deleting user...</div>}
-      {user.name}
+      <span className='text-lg font-bold'>{user.name}</span>
     </>
   );
 

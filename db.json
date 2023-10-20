@@ -1,18 +1,41 @@
 {
   "users": [
     {
-      "name": "Clifford Jacobi II",
+      "name": "Oliver Roberts DDS",
       "id": 1
     },
     {
-      "name": "Clark Swaniawski",
+      "name": "Johnnie Mante",
       "id": 3
-    },
-    {
-      "name": "Angel Rolfson",
-      "id": 4
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "userId": 3,
+      "title": "Rustic Granite Fish",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "title": "Handcrafted Metal Mouse",
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "title": "Unbranded Frozen Ball",
+      "id": 11
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 10,
+      "url": "https://picsum.photos/seed/3eC2KP/640/480",
+      "id": 5
+    },
+    {
+      "albumId": 10,
+      "url": "https://picsum.photos/seed/1iIT5Y1K/640/480",
+      "id": 6
+    }
+  ]
 }

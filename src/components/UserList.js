@@ -51,6 +51,8 @@ const UserList = () => {
         <Button
           loading={isCreatingUser}
           onClick={handleUserAdd}
+          primary
+          className='rounded'
         >
           + Add User
         </Button>
